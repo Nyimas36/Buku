@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Data Siswa</title>
+	<title>Data Buku</title>
 	<style type="text/css">
 		*{
 			font-family: "Trebuchet MS";
@@ -40,17 +40,17 @@
 	</style>
 </head>
 <body>
-	<center><h1>Siswa</h1></center>
-	<center><a href="tambah_produk.php">+ &nbsp; Tambah Siswa</a></center>
+	<center><h1>Daftar Buku</h1></center>
+	<center><a href="tambah_produk.php">+ &nbsp; Daftar Buku</a></center>
 	<br>
 	<table>
 		<thead>
 			<tr>
 				<th>No.</th>
-				<th>Nama</th>
-				<th>Jenis Kelamin</th>
-				<th>NIS</th>
-				<th>Jurusan</th>
+				<th>Judul</th>
+				<th>pengarang</th>
+				<th>Persediaan</th>
+				<th>Penerbit</th>
 				<th>Gambar</th>
 				<th>Action</th>
 			</tr>

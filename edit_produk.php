@@ -25,7 +25,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Data Siswa</title>
+	<title>Data Buku</title>
 	<style type="text/css">
 		*{
 			font-family: "Trebuchet MS";
@@ -66,24 +66,24 @@
 	</style>
 </head>
 <body>
-	<center><h1>Edit Identitas <?php echo $data['judul']; ?></h1></center>
+	<center><h1>Edit Buku <?php echo $data['judul']; ?></h1></center>
 	<form method="POST" action="proses_edit.php" enctype="multipart/form-data">
 	<section class="base">
 		<div>
-			<label>Nama</label>
+			<label>Judul</label>
 			<input type="text" name="judul" autofocus="" required="" value="<?php echo $data['judul']; ?>" />
 			<input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
 		</div>
 		<div>
-			<label>Jenis Kelamin</label>
+			<label>Pengarang</label>
 			<input type="text" name="pengarang" value="<?php echo $data['pengarang']; ?>"/>
 		</div>
 		<div>
-			<label>NIS</label>
+			<label>Persediaan</label>
 			<input type="text" name="persediaan" required="" value="<?php echo $data['persediaan']; ?>"/>
 		</div>
 		<div>
-			<label>Jurusan</label>
+			<label>Penerbit</label>
 			<input type="text" name="penerbit" required="" value="<?php echo $data['penerbit']; ?>"/>
 		</div>
 		<div>

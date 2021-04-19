@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Data Siswa</title>
+	<title>Data Buku</title>
 	<style type="text/css">
 		*{
 			font-family: "Trebuchet MS";
@@ -43,23 +43,23 @@
 	</style>
 </head>
 <body>
-	<center><h1>Tambah Siswa</h1></center>
+	<center><h1>Tambah Buku</h1></center>
 	<form method="POST" action="proses_tambah.php" enctype="multipart/form-data">
 	<section class="base">
 		<div>
-			<label>Nama</label>
+			<label>Judul</label>
 			<input type="text" name="judul" autofocus="" required="" />
 		</div>
 		<div>
-			<label>Jenis Kelamin</label>
+			<label>Pengarang</label>
 			<input type="text" name="pengarang" />
 		</div>
 		<div>
-			<label>NIS</label>
+			<label>Persediaan</label>
 			<input type="text" name="persediaan" required="" />
 		</div>
 		<div>
-			<label>Jurusan</label>
+			<label>Penerbit</label>
 			<input type="text" name="penerbit" required="" />
 		</div>
 		<div>
